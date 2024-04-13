@@ -1,0 +1,38 @@
+# Files and directories created by pub
+.dart_tool/
+.pub-cache/
+.pub/
+
+# Files created by dart2js
+*.dart.js
+*.info.json
+*.js_
+*.js.deps
+*.js.map
+
+# Flutter/Dart/Pub related
+**/packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and task related files
+.vscode/
+
+# OS related
+.DS_Store
+Thumbs.db
+
+# Flutter build outputs
+/build/
+/ios/Flutter/.last_build_id
+/ios/Flutter/flutter_export_environment.sh
+
+# Custom files
+/lib/generated_plugin_registrant.dart
