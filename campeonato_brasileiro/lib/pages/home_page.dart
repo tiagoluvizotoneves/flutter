@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'home_controller.dart';
 
 class HomePage extends StatelessWidget {
@@ -11,7 +10,8 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           title: Text('Brasileirão'),
         ),
-        body: ListView.separated(
+        body: 
+        ListView.separated(
           itemCount: controller.tabela.length,
           itemBuilder: (BuildContext contexto, int i) {
             final tabela  = controller.tabela;
